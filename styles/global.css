@@ -13,7 +13,7 @@
 
 :root {
   --text: #aaa4a4;
-  --red: #C51212;
+  --red: #299ec156;
   --blue: #0041C2;
   --green: #14B02D;
   --yellow: #ffc12b;
@@ -40,65 +40,6 @@ button:hover {
   height: 100vh;
   
 }
-
-
-
-body{
-    
-  height: 100vh;
-  background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('/assets/fundo-cadastro.jpg');
-  background-size: cover;
- 
-}
-
-nav{
-  background-color: #07040067;
-  padding: 10px 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: 'Poppins', sans-serif;
-}
-nav .logo a{
-  text-decoration: none;
-  color: #fff;
-  font-size: 35px;
-  font-weight: 600;
-}
-nav ul{
-  display: flex;
-  align-items: center;
-  list-style: none;
-  padding: 1px;
-}
-nav li{
-  margin-left: 7px;
-}
-nav li a{
-  text-decoration: none;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 8px 15px;
-  border-radius: 5px;
-  transition: 0.3s;
-}
-nav li a:hover{
-  background-color: white;
-  color: black;
-}
-
-
-nav ul button{
-  color: white;
-  background: none;
-  height: 40px;
-  width: 110px;
-}
-
-
-
-
 
 
 
